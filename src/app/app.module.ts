@@ -6,11 +6,19 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CartComponent } from './cart/cart.component';
 
+import { CustomerComponent } from './customer/customer.component';
+import { OrdersummaryComponent } from './ordersummary/ordersummary.component';
+import { OrderComponent } from './order/order.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    CartComponent
+    CartComponent,
+    
+    CustomerComponent,
+         OrdersummaryComponent,
+         OrderComponent
   ],
   imports: [
     BrowserModule,
